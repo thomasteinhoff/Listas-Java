@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Lista de Exercícios.iml" filepath="$PROJECT_DIR$/.idea/Lista de Exercícios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista1/Lista1.iml" filepath="$PROJECT_DIR$/Lista1/Lista1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista2/Lista2.iml" filepath="$PROJECT_DIR$/Lista2/Lista2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista3/Lista3.iml" filepath="$PROJECT_DIR$/Lista3/Lista3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista4/Lista4.iml" filepath="$PROJECT_DIR$/Lista4/Lista4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista1/list01ex01/list01ex01.iml" filepath="$PROJECT_DIR$/Lista1/list01ex01/list01ex01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista1/list01ex02/list01ex02.iml" filepath="$PROJECT_DIR$/Lista1/list01ex02/list01ex02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista1/list01ex03/list01ex03.iml" filepath="$PROJECT_DIR$/Lista1/list01ex03/list01ex03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista1/list01ex04/list01ex04.iml" filepath="$PROJECT_DIR$/Lista1/list01ex04/list01ex04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista1/list01ex05/list01ex05.iml" filepath="$PROJECT_DIR$/Lista1/list01ex05/list01ex05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista1/list01ex06/list01ex06.iml" filepath="$PROJECT_DIR$/Lista1/list01ex06/list01ex06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista1/list01ex07/list01ex07.iml" filepath="$PROJECT_DIR$/Lista1/list01ex07/list01ex07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista1/list01ex08/list01ex08.iml" filepath="$PROJECT_DIR$/Lista1/list01ex08/list01ex08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista1/list01ex09/list01ex09.iml" filepath="$PROJECT_DIR$/Lista1/list01ex09/list01ex09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista1/list01ex10/list01ex10.iml" filepath="$PROJECT_DIR$/Lista1/list01ex10/list01ex10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista1/list01ex11/list01ex11.iml" filepath="$PROJECT_DIR$/Lista1/list01ex11/list01ex11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista1/list01ex12/list01ex12.iml" filepath="$PROJECT_DIR$/Lista1/list01ex12/list01ex12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista1/list01ex13/list01ex13.iml" filepath="$PROJECT_DIR$/Lista1/list01ex13/list01ex13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista1/list01ex14/list01ex14.iml" filepath="$PROJECT_DIR$/Lista1/list01ex14/list01ex14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista1/list01ex15/list01ex15.iml" filepath="$PROJECT_DIR$/Lista1/list01ex15/list01ex15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista1/list01ex16/list01ex16.iml" filepath="$PROJECT_DIR$/Lista1/list01ex16/list01ex16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista1/list01ex17/list01ex17.iml" filepath="$PROJECT_DIR$/Lista1/list01ex17/list01ex17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista1/list01ex18/list01ex18.iml" filepath="$PROJECT_DIR$/Lista1/list01ex18/list01ex18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista1/list01ex19/list01ex19.iml" filepath="$PROJECT_DIR$/Lista1/list01ex19/list01ex19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista1/list01ex20/list01ex20.iml" filepath="$PROJECT_DIR$/Lista1/list01ex20/list01ex20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista2/list02ex01/list02ex01.iml" filepath="$PROJECT_DIR$/Lista2/list02ex01/list02ex01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista2/list02ex02/list02ex02.iml" filepath="$PROJECT_DIR$/Lista2/list02ex02/list02ex02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista2/list02ex03/list02ex03.iml" filepath="$PROJECT_DIR$/Lista2/list02ex03/list02ex03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista2/list02ex04/list02ex04.iml" filepath="$PROJECT_DIR$/Lista2/list02ex04/list02ex04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista2/list02ex05/list02ex05.iml" filepath="$PROJECT_DIR$/Lista2/list02ex05/list02ex05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista2/list02ex06/list02ex06.iml" filepath="$PROJECT_DIR$/Lista2/list02ex06/list02ex06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista2/list02ex07/list02ex07.iml" filepath="$PROJECT_DIR$/Lista2/list02ex07/list02ex07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista2/list02ex08/list02ex08.iml" filepath="$PROJECT_DIR$/Lista2/list02ex08/list02ex08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista2/list02ex09/list02ex09.iml" filepath="$PROJECT_DIR$/Lista2/list02ex09/list02ex09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista2/list02ex10/list02ex10.iml" filepath="$PROJECT_DIR$/Lista2/list02ex10/list02ex10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista2/list02ex11/list02ex11.iml" filepath="$PROJECT_DIR$/Lista2/list02ex11/list02ex11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista2/list02ex12/list02ex12.iml" filepath="$PROJECT_DIR$/Lista2/list02ex12/list02ex12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista2/list02ex13/list02ex13.iml" filepath="$PROJECT_DIR$/Lista2/list02ex13/list02ex13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista2/list02ex14/list02ex14.iml" filepath="$PROJECT_DIR$/Lista2/list02ex14/list02ex14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista2/list02ex15/list02ex15.iml" filepath="$PROJECT_DIR$/Lista2/list02ex15/list02ex15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista3/list03ex01/list03ex01.iml" filepath="$PROJECT_DIR$/Lista3/list03ex01/list03ex01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista3/list03ex02/list03ex02.iml" filepath="$PROJECT_DIR$/Lista3/list03ex02/list03ex02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista3/list03ex03/list03ex03.iml" filepath="$PROJECT_DIR$/Lista3/list03ex03/list03ex03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista3/list03ex04/list03ex04.iml" filepath="$PROJECT_DIR$/Lista3/list03ex04/list03ex04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista3/list03ex05/list03ex05.iml" filepath="$PROJECT_DIR$/Lista3/list03ex05/list03ex05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista3/list03ex06/list03ex06.iml" filepath="$PROJECT_DIR$/Lista3/list03ex06/list03ex06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista3/list03ex07/list03ex07.iml" filepath="$PROJECT_DIR$/Lista3/list03ex07/list03ex07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista3/list03ex08/list03ex08.iml" filepath="$PROJECT_DIR$/Lista3/list03ex08/list03ex08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista3/list03ex09/list03ex09.iml" filepath="$PROJECT_DIR$/Lista3/list03ex09/list03ex09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista3/list03ex10/list03ex10.iml" filepath="$PROJECT_DIR$/Lista3/list03ex10/list03ex10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista4/list04ex01/list04ex01.iml" filepath="$PROJECT_DIR$/Lista4/list04ex01/list04ex01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista4/list04ex02/list04ex02.iml" filepath="$PROJECT_DIR$/Lista4/list04ex02/list04ex02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista4/list04ex03/list04ex03.iml" filepath="$PROJECT_DIR$/Lista4/list04ex03/list04ex03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista4/list04ex04/list04ex04.iml" filepath="$PROJECT_DIR$/Lista4/list04ex04/list04ex04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista4/list04ex05/list04ex05.iml" filepath="$PROJECT_DIR$/Lista4/list04ex05/list04ex05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista4/list04ex06/list04ex06.iml" filepath="$PROJECT_DIR$/Lista4/list04ex06/list04ex06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista4/list04ex07/list04ex07.iml" filepath="$PROJECT_DIR$/Lista4/list04ex07/list04ex07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista4/list04ex08/list04ex08.iml" filepath="$PROJECT_DIR$/Lista4/list04ex08/list04ex08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista4/list04ex09/list04ex09.iml" filepath="$PROJECT_DIR$/Lista4/list04ex09/list04ex09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista4/list04ex10/list04ex10.iml" filepath="$PROJECT_DIR$/Lista4/list04ex10/list04ex10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista4/list04ex11/list04ex11.iml" filepath="$PROJECT_DIR$/Lista4/list04ex11/list04ex11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lista4/list04ex12/list04ex12.iml" filepath="$PROJECT_DIR$/Lista4/list04ex12/list04ex12.iml" />
+    </modules>
+  </component>
+</project>
