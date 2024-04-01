@@ -1,19 +1,15 @@
 import java.util.Scanner;
+import java.lang.Math;
 
 public class Main {
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
 
-        double num1;
-        int num2;
-        double num3;
+        double n1;
 
         System.out.println("Digite o raio de um cone");
-        num1 = read.nextInt();
-        num1 = num1 * num1 * 3.141592653;
+        n1 = Math.pow(read.nextDouble(),2) * Math.PI;
         System.out.println("Digite a altura");
-        num2 = read.nextInt();
-        num3 = (num1 * num2) / 3;
-        System.out.println("O volume do cone é: " + num3);
+        System.out.println("O volume do cone é: " + (n1*read.nextDouble()/3));
     }
 }

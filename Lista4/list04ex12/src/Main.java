@@ -1,19 +1,20 @@
 public class Main {
     public static void main(String[] args) {
-        int main1=1, main2=1, main3=1, nd1=1, nd2=1, nd3=1;
-        int [] [] matrix = {{5,3,6}
-                           ,{5,1,4}
-                           ,{4,6,8}};
+        int detmain, detsecn, det = 0;
+        int [] [] matrix = {{1,2,1}
+                           ,{3,2,2}
+                           ,{1,1,3}};
 
-        for (int i=0; i<=2; i++) {
-            main1 *= matrix[i][i];
-            main2 *= matrix[i][(i + 1) % 3];
-            main3 *= matrix[i][(i + 2) % 3];
-            nd1 *= matrix[i][2 - i];
-            nd2 *= matrix[i][2 - ((i + 1) % 3)];
-            nd3 *= matrix[i][2 - ((i + 2) % 3)];
+        for (int j=0; j< matrix.length; j++){
+            detmain = 1;
+            detsecn = 1;
+            for (int i=0; i<=2; i++) {
+                detmain *= matrix[i][(i + j) % matrix.length];
+                detsecn *= matrix[i][(matrix.length - 1 - i + j) % matrix.length];
+            }
+            det += detmain - detsecn;
         }
 
-        System.out.println("A determinante é: " + (main1+main2+main3-nd1-nd2-nd3));
+        System.out.println(det);
     }
 }

@@ -6,8 +6,7 @@ public class Main {
                             ,{3,5,6,1,9}
                             ,{7,5,8,7,7}};
 
-        for (int i=0; i<=4; i++) {
+        for (int i=0; i<=4; i++)
             System.out.printf(numbers[i][i] + " ");
-        }
     }
 }

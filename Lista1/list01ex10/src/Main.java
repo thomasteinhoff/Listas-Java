@@ -4,11 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
 
-        double num1;
-
         System.out.println("Digite um valor em Mi");
-        num1 = read.nextInt();
-        num1 = num1 * 1.609;
-        System.out.println("A conversão em Km é: " + num1);
+        System.out.println("A conversão em Km é: " + read.nextDouble() * 1.609);
     }
 }
