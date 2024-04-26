@@ -28,7 +28,7 @@ public class Main {
         }
     }
     public static String binsearch(int res, int [] array) {
-        int midIndex = array.length / 2;
+        int midIndex = array.length / 2;                                    // THE thing
         int midValue = array[midIndex];
 
         if (res == midValue)
@@ -52,9 +52,9 @@ public class Main {
             array1[i - midIndex - 1] = array[i];
         return array1;
     }
-    public static String closest(int target, int [] array) {
-        for (int i=0; i< array.length; i++)
-            if (array[i] < target && target < array[i+1])
+    public static String closest(int target, int [] array) {                // if there isnt the number, search the
+        for (int i=0; i< array.length; i++)                                 // closest number by searching the entire
+            if (array[i] < target && target < array[i+1])                   // array
                 return "Closest numbers: " + array[i] + ", " + array[i + 1];
         return null;
     }
