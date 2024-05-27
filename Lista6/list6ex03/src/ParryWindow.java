@@ -3,16 +3,19 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Timer;
 import java.util.TimerTask;
-
-/* Comments for my own study and understanding */
+import java.util.concurrent.CountDownLatch;
 
 public class ParryWindow extends JFrame{
-    private boolean parried; //  boolean attribute
+    private boolean parried;
+    private CountDownLatch latch;
 
     // constructor
-    public ParryWindow() {
+    public ParryWindow(CountDownLatch latch) {
         // Calls from the upper class using the "super"
         super("Parry Window");
+        this.latch = latch;
+        this.parried = false;
+
         setSize(200, 100);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null); // centers in the screen
@@ -23,6 +26,7 @@ public class ParryWindow extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 parried = true;
                 System.out.println("Parried");
+                latch.countDown();
                 dispose();
             }
         });
@@ -34,6 +38,7 @@ public class ParryWindow extends JFrame{
         timer.schedule(new TimerTask() {@Override
             public void run() {
                 parried = false;
+                latch.countDown();
                 dispose();
             }
         }, 2000);
@@ -42,10 +47,10 @@ public class ParryWindow extends JFrame{
     // Getter and Setter
     public boolean isParried() {return this.parried;}
 
-    // Method
-    public static void createAndShow() {
+    // Methods
+    public static void createAndShow(CountDownLatch latch) {
         SwingUtilities.invokeLater(() -> {
-            ParryWindow window = new ParryWindow();
+            ParryWindow window = new ParryWindow(latch);
             window.setVisible(true);
         });
     }

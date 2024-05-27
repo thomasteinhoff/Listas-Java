@@ -1,17 +1,18 @@
 import java.util.Scanner;
 import java.util.Random;
+import java.util.concurrent.CountDownLatch;
 
 public class Main {
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
-        ParryWindow parry = new ParryWindow();
+        ParryWindow parry = new ParryWindow(new CountDownLatch(1));
         Boss boss = new Boss();
+
         System.out.println("""
-                This is a shor boss battle HEAVILY inspired by one boss from Lies of P, please enjoy.
-                Also, try for once to face thy bounds.
+                This is a short boss battle HEAVILY inspired by one boss from Lies of P, please enjoy.
                 
                 [...]
-                Exhaustion make you doubt about thy choices, you try to speak out loud your name to verify you still sane:""");
+                Exhaustion make you doubt about thy choices, thee try to speak out loud thy name to verify if you're still sane:""");
         Char player = new Char(read.nextLine(), 100,
                 rand(90, 100),   // hp
                 rand(20, 30),    // str
@@ -21,14 +22,15 @@ public class Main {
         read.next();
         System.out.println("""
                 Before you take any action the giant rock doors began to move before thy eyes.
-                The light from outside slowly enters the room as dust settles on the floor.
-                Keep going?""");
+                The light from outside slowly enters the room as dust settles on the floor.""");
+
         while (true) {
-            if (read.nextLine().equalsIgnoreCase("y") ||
-                    read.nextLine().equalsIgnoreCase("yes"))
+            System.out.println("Keep going?"); // for some reason, if you try to input "y", it doesn't recognize the first time
+            if (read.nextLine().trim().equalsIgnoreCase("y") ||
+                read.nextLine().trim().equalsIgnoreCase("yes"))
                 break;
             else
-                System.out.println("You don't have a choice.\nKeep going?");
+                System.out.println("You don't have a choice. Keep going?");
         }
 
         System.out.println("""
@@ -100,18 +102,24 @@ public class Main {
             boss.setPrepAttack(true);
         } else {
             boss.setPrepAttack(false);
-            if(player.isEvading()) {
+            if (player.isEvading()) {
                 System.out.println("\nThe impact of his attack in the ground behind you makes you consider" +
                         " the frailty of you body.");
                 player.setEvading(false);
             } else {
                 player.setEvading(false);
                 System.out.println("Here it comes.");
-                // THE parry
-                ParryWindow.createAndShow();
-                delay(2.5);
 
-                if (parry.isParried()) {
+                // THE parry
+                CountDownLatch latch = new CountDownLatch(1);
+                parry.createAndShow(latch);
+                try {
+                    latch.await();  // Wait for the parry window to finish
+                } catch (InterruptedException e) {
+                    System.err.println("Latch interrupted!");
+                }
+
+                if (parry.isParried()) {  // Updated to static access to isParried()
                     System.out.println("You parried it with mastery.");
                 } else {
                     System.out.println("\nThe hands of the " + boss.getName() + " weigh on you as thy sins.");
@@ -122,6 +130,7 @@ public class Main {
             }
         }
     }
+
 
     public static void yourTurn(Char player, Boss boss, Scanner read){
         if (player.isEvading()) {
