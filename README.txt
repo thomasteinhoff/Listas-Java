@@ -1,6 +1,2 @@
-This is an constantly uptaded folder where i upload java exercises lists.
-The pdf's in the folder explain what each list ask (in portuguese)
-*The programns unfortunately are poor commented, may some day i change that (prolly this day'll never come)
-
-Coded by Thomas Steinhoff (uvazeda83 in git hub)
-ty
+This repository serves to show my progress in java and programming in general, each list depicting an area of programming concepts, getting more and more complex.
+All the theory was explored in class during my first semester at college. Unfortunately they are not designed to work on their own, to see them working you will need a compiler (IntelliJ was the IDE used to code everything).
